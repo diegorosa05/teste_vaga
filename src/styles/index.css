@@ -1,5 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
 :root {
     --yellow-primary: #FBAF17;
+    --yellow-blur: #fbaf17a1;
     --grey: #828282;
     --white: #FFFFFF;
     --blue-primary: #202332;
@@ -8,3 +16,109 @@
 body {
     background-color: var(--white);
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;  
+    margin: 0px;
+}
+
+header>img{
+    width: 4rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    background-color: var(--yellow-primary);
+    justify-content: center;
+    align-items: center;
+    border-start-start-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0rem 10rem 0rem 1rem;
+}
+
+ul>a{
+    background-color: var(--blue-primary);
+    padding: 1rem 2rem;
+    color: var(--white);
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.container__header{
+    float: right;
+    margin-left: 23rem;
+}
+
+.container__girl{
+    float: left;
+    margin-right: 15rem;
+}
+
+#header{
+    background: url("https://media.discordapp.net/attachments/1035363337015394316/1135998483468398764/Rectangle_29.png?width=1177&height=662");
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+}
+
+.container__titulo{
+    font-size: 4rem;
+    width: 30rem;
+}
+
+.container__descricao{
+    font-size: 1rem;
+    width: 30rem;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 2rem;
+}
+
+.container__botaoprin{
+    background-color: var(--yellow-primary);
+    text-decoration: none;
+    border-radius: 15px;
+    color: var(--blue-primary);
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 0 40px 1px var(--yellow-blur);
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.container__botaoseg{
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    width: 70%;
+}
+
+.container__baixo{
+    color: var(--white);
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+.fa-arrow-down {
+    margin-right: 10px
+}
+  
