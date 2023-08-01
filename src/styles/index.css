@@ -1,0 +1,10 @@
+:root {
+    --yellow-primary: #FBAF17;
+    --grey: #828282;
+    --white: #FFFFFF;
+    --blue-primary: #202332;
+}
+
+body {
+    background-color: var(--white);
+}
