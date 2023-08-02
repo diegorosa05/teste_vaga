@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing:border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -38,7 +38,8 @@ ul {
     align-items: center;
     border-start-start-radius: 30px;
     border-bottom-left-radius: 30px;
-    padding: 0rem 10rem 0rem 1rem;
+    padding: 0rem 25rem 0rem 10rem;
+    font-weight: 300;
 }
 
 ul>a{
@@ -47,6 +48,7 @@ ul>a{
     color: var(--white);
     border-radius: 6px;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .container__header{
@@ -121,4 +123,99 @@ ul>a{
 .fa-arrow-down {
     margin-right: 10px
 }
-  
+
+#product{
+    padding: 2rem;
+}
+
+.container__product{
+    background: url("https://cdn.discordapp.com/attachments/780884459205034007/1136050131351912660/Frame_7.png");
+    justify-content: space-between;
+    background-size: 80rem;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.container__titlediv{
+    color: var(--white);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 250px;
+}
+
+#render {
+    width: 100%;
+    display: flex;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.12);
+}
+.img {
+    width: 150px;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+}
+.Container {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 0rem 0rem 1.5rem 0rem;
+    background-color: rgb(255, 255, 255);
+}
+.titleCard {
+    color: #000;
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 117.391% */
+    letter-spacing: -1.15px;
+}
+.text_CardPayment {
+    display: inline-flex;
+    padding: 6px 60px 6px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px 0px 0px 16px;
+    background: var(--yellow-primary);
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px; /* 190% */
+    letter-spacing: -0.6px;
+}
+
+.text__risc{
+    align-items: center;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px; /* 211.111% */
+    letter-spacing: -1.26px;
+    text-decoration: line-through;
+}
+
+.CardPar{
+    display: inline-flex;
+    padding: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 13px 13px 0px 0px;
+    background: #F7F7F7;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
